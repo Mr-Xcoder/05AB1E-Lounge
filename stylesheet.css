@@ -31,13 +31,14 @@ ul.menu {
   border-radius: 5px;
 }
 
-ul.menu:hover {
-  background-color: #d2d2d2;
-}
 
 li.menuitem {
   width: 33.33%;
   float: left;
+}
+
+li.menuitem:hover {
+  background-color: #d2d2d2;
 }
 
 li.menuitem a {
