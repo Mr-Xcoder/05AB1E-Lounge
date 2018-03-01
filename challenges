@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>The 05AB1E Lounge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+  <body>
+
+    <h1 align="center">The <a href="https://github.com/Adriandmen/05AB1E">05AB1E</a> Lounge</h1>
+    <ul class="menu">
+      <li class="menuitem"><a href="./">About</a></li>
+      <li class="menuitem"><a href="./resources">Resources</a></li>
+      <li class="menuitem"><a href="./challenges">Challenges</a></li>
+    </ul>
+      <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;Practising your skills is a vital part of learning a (recreational) programming language, so here's a list of challenges you can try out. Note that this page is currently <i>Work-in-Progress</i>.
+      </p>
+  </body>
+
+</html>
+
