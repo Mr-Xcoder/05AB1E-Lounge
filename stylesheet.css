@@ -22,6 +22,11 @@ a:active {
   color: #003ee5;
 }
 
+a.github {
+  text-decoration: none;
+  color: #000000;
+}
+
 ul.menu {
   list-style-type: none;
   margin: 0;
@@ -59,3 +64,4 @@ li.menuitem a {
     width: 100%;
   }
 }
+
