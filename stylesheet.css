@@ -1,30 +1,18 @@
 body {
-  background-color: #ffffff;
-  margin: 10px auto;
-  color: #222222;
-  font-family: sans-serif;
-  width: 90%;
-  max-width: 800px;
-  font-size: 18px;
-  line-height: 1.5;
-  padding: 20px 0px;
+  background-color: #1c1c1c;
+  font-family: 'Cabin';
+  color: #c3c3c3;
+  margin: 0 0 0 0;
 }
 
-a:link,
-a:visited {
-  text-decoration: none;
-  color: #0083e5;
+span.logo {
+  font-family: 'Lobster';
 }
 
-a:hover,
-a:active {
-  text-decoration: none;
-  color: #003ee5;
-}
-
-a.github {
-  text-decoration: none;
-  color: #000000;
+h1 {
+  font-family: 'Lobster';
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 ul.menu {
@@ -32,33 +20,53 @@ ul.menu {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #e5e5e5;
-  border-radius: 5px;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-align: center;
 }
 
 li.menuitem {
-  width: 33.33%;
-  float: left;
-}
-
-li.menuitem:hover {
-  background-color: #d2d2d2;
+  display: inline-block;
 }
 
 li.menuitem a {
   display: block;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
+li.menuitem a:hover {
+  background-color: #202020;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #4267b2;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #4389c3;
+}
+
+.centered {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.active {
+  background-color: #4267b2;
+}
+
 @media only screen and (max-width:620px) {
-  body {
+  .centered {
     width: 95%;
-  }
-  ul.menu {
-    width: 95%;
-    margin: 0 auto;
   }
   li.menuitem {
     width: 100%;
